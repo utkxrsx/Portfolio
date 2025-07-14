@@ -8,9 +8,12 @@ const About = () => {
 
   // Technical skills with your specified technologies
   const skills = [
+    { name: 'Java', logo: '☕', category: 'programming' },
     { name: 'Python', logo: '🐍', category: 'programming' },
     { name: 'C / C++', logo: '⚡', category: 'programming' },
-    { name: 'Java', logo: '☕', category: 'programming' },
+    { name: 'Verilog HDL', logo: '🔧', category: 'fpga' },
+    { name: 'Quartus', logo: '💡', category: 'fpga' },
+    { name: 'ModelSim', logo: '🎛️', category: 'fpga' },
     { name: 'JavaScript', logo: '🟨', category: 'programming' },
     { name: 'ReactJS', logo: '⚛️', category: 'frontend' },
     { name: 'API', logo: '🔗', category: 'integration' },
@@ -20,8 +23,7 @@ const About = () => {
     { name: 'ESP32', logo: '📡', category: 'embedded' },
     { name: 'MATLAB', logo: '📊', category: 'analysis' },
     { name: 'Cadence Virtuoso', logo: '🔬', category: 'design' },
-    { name: 'LTSpice', logo: '⚙️', category: 'simulation' },
-    { name: 'Verilog HDL', logo: '🔧', category: 'hardware' }
+    { name: 'LTSpice', logo: '⚙️', category: 'simulation' }
   ]
 
   // Real professional experiences from your resume
@@ -95,7 +97,7 @@ const About = () => {
                   <span className="stat-label">Years Learning</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">14</span>
+                  <span className="stat-number">16</span>
                   <span className="stat-label">Technologies</span>
                 </div>
                 <div className="stat-item">
