@@ -38,7 +38,7 @@ const Projects = () => {
       description: 'DevHouse\'24 Top 4 - Smart city IoT dashboard analyzing 1000+ sensor readings per hour with 99.5% accuracy.',
       longDescription: 'Built a comprehensive smart-city IoT dashboard that analyzes over 1000 sensor readings per hour. The system reduced decision-making time by 50% through advanced analytics visualization and achieved a 99.5% data accuracy score. Ranked top 4 out of 120+ projects at DevHouse\'24.',
       image: "https://ik.imagekit.io/utkxrsx/images/ank.data.jpg?updatedAt=1752084869747",
-      category: 'web',
+      category: 'iot',
       technologies: ['Python', 'IoT', 'Data Analytics', 'Jupyter Notebook', 'Dashboard'],
       features: ['1000+ Readings/Hour', '99.5% Data Accuracy', '50% Faster Decisions', 'Real-time Analytics'],
       github: 'https://github.com/utkxrsx/ANK.data',
