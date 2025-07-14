@@ -12,8 +12,16 @@ const Hero = () => {
     name: "Utkarsh Rounak",                    // Replace with your name
     welcomeMessage: "Welcome to My Digital Universe",  // Customize your welcome message
     profileImage: "https://ik.imagekit.io/utkxrsx/images/profile-photo.jpg?updatedAt=1752084868612",  // Path to your photo
-    resumeFile: "https://drive.google.com/file/d/1bAuQoEjv_MQ_bN-M8hnSYhZ_leP424c5/view?usp=drive_link"         // Path to your resume
+    //resumeFile: "https://drive.google.com/file/d/1bAuQoEjv_MQ_bN-M8hnSYhZ_leP424c5/view?usp=drive_link"         // Path to your resume
   }
+const DRIVE_FILE_ID = import.meta.env.VITE_DRIVE_FILE_ID
+
+  const RESUME_URLS = {
+  // For direct download
+  download: `https://drive.google.com/uc?export=download&id=${DRIVE_FILE_ID}`,
+}
+
+const NAME = "Utkarsh Rounak"
 
   const roles = [
     'Full Stack Developer',
@@ -55,13 +63,20 @@ const Hero = () => {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
   }
 
-  const downloadResume = () => {
-    const link = document.createElement('a')
-    link.href = personalInfo.resumeFile
-    link.download = `${personalInfo.name.replace(/\s+/g, '_')}_Resume.pdf`
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+  const   downloadResume = () => {
+    try {
+      // Create a temporary link for download
+      const link = document.createElement('a')
+      link.href = RESUME_URLS.download
+      link.download = `${NAME}_Resume.pdf`
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    } catch (error) {
+      console.error('Download failed:', error)
+      // Fallback to opening in new tab
+      window.open(RESUME_URLS.view, '_blank')
+    }
   }
 
   return (
