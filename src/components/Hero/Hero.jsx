@@ -11,8 +11,8 @@ const Hero = () => {
   const personalInfo = {
     name: "Utkarsh Rounak",                    // Replace with your name
     welcomeMessage: "Welcome to My Digital Universe",  // Customize your welcome message
-    profileImage: "src/assets/images/profile-photo.jpg",  // Path to your photo
-    resumeFile: "src/assets/documents/resume.pdf"         // Path to your resume
+    profileImage: "https://ik.imagekit.io/utkxrsx/images/profile-photo.jpg?updatedAt=1752084868612",  // Path to your photo
+    resumeFile: "https://drive.google.com/file/d/1bAuQoEjv_MQ_bN-M8hnSYhZ_leP424c5/view?usp=drive_link"         // Path to your resume
   }
 
   const roles = [
