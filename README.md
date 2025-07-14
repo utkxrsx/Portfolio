@@ -63,31 +63,33 @@ yarn dev
 ---
 
 ## ✨ Project Structure
-src/
-├── components/
-│   ├── Navbar/
-│   │   ├── Navbar.jsx
-│   │   └── Navbar.css
-│   ├── Contact/
-│   │   ├── Contact.jsx
-│   │   └── Contact.css
-│   ├── Projects/
-│   │   ├── Projects.jsx
-│   │   └── Projects.css
-│   ├── Resume/
-│   │   ├── Resume.jsx
-│   │   └── Resume.css
-│   └── Footer/
-│       ├── Footer.jsx
-│       └── Footer.css
-├── assets/
-│   └── images/
-│       ├── srover.jpg
-│       ├── ank.data.jpg
-│       ├── jpeg.png
-│       └── signal.png
-└── App.jsx
 
+<pre> 
+  src/
+├── components/
+│ ├── Navbar/
+│ │ ├── Navbar.jsx
+│ │ └── Navbar.css
+│ ├── Contact/
+│ │ ├── Contact.jsx
+│ │ └── Contact.css
+│ ├── Projects/
+│ │ ├── Projects.jsx
+│ │ └── Projects.css
+│ ├── Resume/
+│ │ ├── Resume.jsx
+│ │ └── Resume.css
+│ └── Footer/
+│ ├── Footer.jsx
+│ └── Footer.css
+├── assets/
+│ └── images/
+│ ├── srover.jpg
+│ ├── ank.data.jpg
+│ ├── jpeg.png
+│ └── signal.png
+└── App.jsx
+ </pre>
 
 ---
 
@@ -148,14 +150,6 @@ src/
 
 ---
 
-## 📚 Credits
-
-- [EmailJS](https://www.emailjs.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Google Drive](https://drive.google.com/)
-- [Unsplash](https://unsplash.com/) (demo images)
-
----
 
 ## 💡 License
 
