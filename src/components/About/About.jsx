@@ -35,13 +35,7 @@ const About = () => {
       description: 'Assisted in the development and maintenance of websites and successfully wrapped up various hackathons. Contributed to technical projects and participated in competitive programming events.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'MongoDB','Node.JS']
     },
-    // {
-    //   role: 'Web Development Intern', 
-    //   company: 'Zidio Developments',
-    //   period: 'July 2024 - October 2024',
-    //   description: 'Collaborated with the web development team to learn best practices and contribute to various projects. Gained hands-on experience in modern web development workflows and team collaboration.',
-    //   technologies: ['Web Development', 'JavaScript', 'ReactJS', 'MongoDB','Node.JS', 'Team Collaboration']
-    // },
+
     {
       role: 'Front-End Development Intern',
       company: 'Learntricks Edutech',
